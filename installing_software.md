@@ -16,7 +16,7 @@ Install R first. Downloads are available at https://cran.rstudio.com/
 
 **Install RStudio**
 
-Next, install RStudio.
+Next, install RStudio. If you already have RStudio, ensure you have the latest version (1.0.44).
 
 * Downloads are available at https://www.rstudio.com/products/rstudio/download/
 
