@@ -8,6 +8,7 @@ The material is self-paced and includes a worked-example. It is suggested that y
 
 * [Installing the software](./installing_software.md) - Get what you need on your own machine
 * [Setting up an R project](./r_project.md) - Create a self contained project in RStudio
+* [Creating an RMarkdown notebook](./r_markdown.md) - Create a notebook to have all analyses and notes in one place
 * [Loading Data](./loading_data.md) - Getting your own data into R
 * [Tidying Data](./tidying_data.md) - A quick example of transforming a messy dataset into something workable
 * [Manipulating and summarising data](./summarising_data.md) - How to take our tidy data and create some useful summaries
