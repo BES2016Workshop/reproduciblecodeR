@@ -26,3 +26,5 @@ Two files are created in the otherwise empty project:-
 * **reproducible_r.Rproj** - Configuration information for the RStudio project
 
 There is no need to worry about the contents of either of these for the purposes of this tutorial. Tamora will be covering how to use git for version control in one of the other breakout sessions.
+
+**Next:** [Creating an RMarkdown notebook](./r_markdown.md)

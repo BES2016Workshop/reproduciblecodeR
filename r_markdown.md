@@ -11,3 +11,5 @@ Edit the title of the notebook at the top of the document and try following some
 In the worked example that follows, we can enter R commands into code chunks and make notes using Markdown code in the main part of the document. 
 
 Markdown is intended to be as easy-to-read and easy-to-write as possible: [handy guide to Markdown syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+**Next:** [Loading Data](./loading_data.md)

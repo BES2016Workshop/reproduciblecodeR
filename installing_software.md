@@ -45,3 +45,4 @@ We are going to be using a number of packages in the following example. To insta
 
 `install.packages("readr", "tidyr", "dplyr", "broom", "ggplot2", "cowplot")`
 
+**Next:** [Setting up an R project](./r_project.md)

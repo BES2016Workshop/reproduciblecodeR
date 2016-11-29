@@ -14,4 +14,4 @@ The material is self-paced and includes a worked-example. It is suggested that y
 * [Manipulating and summarising data](./summarising_data.md) - How to take our tidy data and create some useful summaries
 * [Tidying model output](./tidying_output.md) - An example of how to tidy the output from a basic statistical model
 * [Plotting](./plotting.md) - To finish up, how to plot a summary of a model using ggplot2
-* [Things we haven't told you](./next_steps.md) - Steps to further learning
+* [Additional resources](./next_steps.md) - Steps to further learning
