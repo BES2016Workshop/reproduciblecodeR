@@ -11,6 +11,8 @@ Key features of tidy data are:
 - Variables in columns
 - Each type of observational unit is a table
 
+![](./assets/tidy_data.png)
+
 Messy data can take many forms. For example:
 
 - Column headers are values, not variable names

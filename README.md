@@ -15,3 +15,5 @@ The material is self-paced and includes a worked-example. It is suggested that y
 * [Tidying model output](./tidying_output.md) - An example of how to tidy the output from a basic statistical model
 * [Plotting](./plotting.md) - To finish up, how to plot a summary of a model using ggplot2
 * [Additional resources](./next_steps.md) - Steps to further learning
+
+My version of the R Notebook we have been working on can be found [here](https://github.com/laurajanegraham/reproducible_r).

@@ -65,5 +65,8 @@ the dataframe.
 > In a new code chunk in your R Notebook, use ggplot to make a plot of
 > the linear model created in the previous step. Colour the points by
 > species name.
+>
+> **HINT** Loading the cowplot package will change the look of the plots
+> to be more suitable for publication.
 
 **Next:** [Additional resources](./next_steps.md)
