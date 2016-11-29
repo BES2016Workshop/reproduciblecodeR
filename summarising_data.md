@@ -61,6 +61,7 @@ cylinders.
 > standard deviation for each of the measured variables, grouped by
 > species.
 >
-> **HINT** Use `summarise_each` rather than multiple calls to summarise.
+> **HINT** Use `summarise_each` rather than multiple calls to
+> `summarise()`.
 
 **Next:** [Tidying model output](./tidying_output.md)

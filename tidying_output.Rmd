@@ -1,0 +1,33 @@
+---
+output: md_document
+---
+# Tidying model output
+
+In this section, we will run a basic linear model and programatically tidy the output from the model. 
+
+Again using the `mtcars` data, see an example of the output from a linear model:
+
+```{r}
+data(mtcars)
+lmfit <- lm(mpg ~ wt, data = mtcars)
+summary(lmfit)
+```
+
+While this summary is useful for assessing the output of a single model, it can become quite difficult once the number of models starts to increase. This is where the [broom](https://cran.r-project.org/web/packages/broom/vignettes/broom.html) package comes in handy. This package provides functions to convert model coefficient estimates, predicted values and residuals, and summary statistics to data frames.
+
+```{r}
+library(broom)
+# we can view a table of the coefficient estimates and p values
+tidy(lmfit)
+
+# we can view a table of the fit statistics
+glance(lmfit)
+```
+
+The functions from the broom package work on most classes of model output. 
+
+> ### Worked example
+>
+> Using the `lm()` and `tidy()` functions, fit a linear model relating petal length to petal width and output the table of coefficients.
+
+**Next:** [Plotting](./plotting.md)
