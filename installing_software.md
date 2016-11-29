@@ -43,6 +43,6 @@ On succesful completion, you should see no output from these commands.
 
 We are going to be using a number of packages in the following example. To install these packages, run the following code in the R console.
 
-`install.packages("RCurl", "readr", "tidyr", "dplyr", "broom", "ggplot2", "cowplot")`
+`install.packages(c("RCurl", "readr", "tidyr", "dplyr", "broom", "ggplot2", "cowplot"))`
 
 **Next:** [Setting up an R project](./r_project.md)
