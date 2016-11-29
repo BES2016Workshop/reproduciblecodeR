@@ -1,7 +1,12 @@
 library(tidyr)
+library(dplyr)
 library(readr)
-iris_mess <- unite(iris, Sepal.Length_Sepal.Width, Sepal.Length, Sepal.Width) %>%
-  unite(Petal.Length_Petal.Width, Petal.Length, Petal.Width) %>%
-  gather(measurement, value, -Species)
+
+iris$ID <- rep(paste0("sample", 1:50), 3)
+iris_mess <- gather(iris, measurement, value, -Species, -ID) %>%
+  spread(Species, value) %>%
+  unite(measurement, ID, measurement)
 
 write.csv(iris_mess, file="iris.csv", row.names = FALSE)
+
+
