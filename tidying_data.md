@@ -68,4 +68,7 @@ package provides functions to fix many of the issues in messy datasets.
 > In a new code chunk in your R Notebook, use the suggested functions to
 > get the data into tidy data format.
 >
-> **HINT** To get help on how to use a function use e.g. `?separate`
+> **HINT** Use `?` to get help on how to use a function (e.g.
+> `?separate`)
+
+**Next:** [Manipulating and summarising data](./summarising_data.md)

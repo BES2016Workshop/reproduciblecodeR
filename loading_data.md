@@ -15,3 +15,5 @@ R packages exist to load in pretty much any form of data you can think of. Some 
 > In a new code chunk in your R Notebook, download [iris.csv](https://raw.githubusercontent.com/BES2016Workshop/reproduciblecodeR/master/iris.csv) using `getURL()` from the RCurl package and read into R using `read.csv()`
 >
 > **HINT** Use `read.csv(text = getURL("/url/of/file"))` to read straight into R from webpage
+
+**Next:** [Tidying Data](./tidying_data.md)
