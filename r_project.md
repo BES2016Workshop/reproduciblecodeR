@@ -12,7 +12,7 @@ In the **Project Type** screen, click on **Empty Project**.
 
 ![](./assets/project_screen2.png)
 
-In the **Create New Project** screen, give your project a name and ensure that **create a git repository** is checked. Click on **Create Project**.
+In the **Create New Project** screen, give your project a name, set the folder to an appropriate location by clicking browse, and ensure that **create a git repository** is checked. Click on **Create Project**.
 
 ![](./assets/project_screen3.png)
 
