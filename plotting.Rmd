@@ -10,7 +10,7 @@ The features that I find most useful in ggplot2 are:
 - Build up plots layer-by-layer
 - Can use `facet_wrap()` and `facet_grid()` to create separate plots by a factor in the dataframe
 
-Lets make a plot of the `mtcars` model from the previous step:
+Let's make a plot of the `mtcars` model from the previous step:
 
 ```{r}
 data(mtcars)
