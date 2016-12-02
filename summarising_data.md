@@ -55,7 +55,7 @@ A brief example using the built-in `mtcars` data:
 Here we have the mean and standard deviation of MPG for each number of
 cylinders.
 
-> ### Worked example
+> ### Challenge
 >
 > In a new code chunk in your R Notebook, calculate the mean and
 > standard deviation for each of the measured variables, grouped by

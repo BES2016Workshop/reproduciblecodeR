@@ -57,7 +57,7 @@ statistics to data frames.
 The functions from the broom package work on most classes of model
 output.
 
-> ### Worked example
+> ### Challenge
 >
 > Using the `lm()` and `tidy()` functions, fit a linear model relating
 > petal length to petal width and output the table of coefficients.

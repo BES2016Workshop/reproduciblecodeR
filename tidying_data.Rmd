@@ -50,7 +50,7 @@ The [tidyr](https://blog.rstudio.org/2014/07/22/introducing-tidyr/) package prov
 
 Two other useful packages for tidying data are [lubridate](https://cran.r-project.org/web/packages/lubridate/lubridate.pdf) for working with dates and [taxize](https://ropensci.org/tutorials/taxize_tutorial.html) for cleaning taxonomic information.
 
-> ### Worked example
+> ### Challenge
 >
 > In a new code chunk in your R Notebook, use the suggested functions to get the data into tidy data format. 
 >

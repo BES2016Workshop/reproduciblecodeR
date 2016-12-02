@@ -60,7 +60,7 @@ The `aes()` part of the call to `ggplot()` allows us to set the
 aesthetics of the plot, for example the `colour`, based on variables in
 the dataframe.
 
-> ### Worked example
+> ### Challenge
 >
 > In a new code chunk in your R Notebook, use ggplot to make a plot of
 > the linear model created in the previous step. Colour the points by

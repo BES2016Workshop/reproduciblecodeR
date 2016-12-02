@@ -65,7 +65,13 @@ package provides functions to fix many of the issues in messy datasets.
     into multiple columns. We can use this to get the measurement types
     to form columns.
 
-> ### Worked example
+Two other useful packages for tidying data are
+[lubridate](https://cran.r-project.org/web/packages/lubridate/lubridate.pdf)
+for working with dates and
+[taxize](https://ropensci.org/tutorials/taxize_tutorial.html) for
+cleaning taxonomic information.
+
+> ### Challenge
 >
 > In a new code chunk in your R Notebook, use the suggested functions to
 > get the data into tidy data format.

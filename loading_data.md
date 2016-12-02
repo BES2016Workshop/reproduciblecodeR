@@ -10,10 +10,12 @@ R packages exist to load in pretty much any form of data you can think of. Some 
 - [raster](https://cran.r-project.org/web/packages/raster/raster.pdf) and [rgdal](https://cran.r-project.org/web/packages/rgdal/rgdal.pdf) for spatial data
 - [RCurl](https://cran.r-project.org/web/packages/RCurl/RCurl.pdf) contains functions to fetch data from webpages (along with lots more functionality for interfacing with webpages)
 
-> ### Worked example
+To load these packages into your R session use `library()` e.g. `library(RCurl)`
+
+> ### Challenge
 >
-> In a new code chunk in your R Notebook, download [iris.csv](https://raw.githubusercontent.com/BES2016Workshop/reproduciblecodeR/master/iris.csv) using `getURL()` from the RCurl package and read into R using `read.csv()`
+> In a new code chunk in your R Notebook, download [iris.csv](https://raw.githubusercontent.com/BES2016Workshop/reproduciblecodeR/master/iris.csv) using `getURL()` from the RCurl package, read into R using `read.csv()` and assign to the object name `iris`.
 >
-> **HINT** Use `read.csv(text = getURL("/url/of/file"))` to read straight into R from webpage
+> **HINT** Use `df <- read.csv(text = getURL("/url/of/file"))` to read straight into R from webpage (replace `/url/of/file` with location of file). 
 
 **Next:** [Tidying Data](./tidying_data.md)
