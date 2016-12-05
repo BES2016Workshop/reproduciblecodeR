@@ -2,9 +2,7 @@
 
 In this session, we are going to go through the basics of writing reproducible code in R, using an RMarkdown document. 
 
-The material is self-paced and includes a worked-example. It is suggested that you work through the sections in order.
-
-## Version control with git and github
+The material is self-paced and includes an example analysis. It is suggested that you work through the sections in order.
 
 * [Setting up an R project](./r_project.md) - Create a self contained project in RStudio
 * [Creating an RMarkdown notebook](./r_markdown.md) - Create a notebook to have all analyses and notes in one place
