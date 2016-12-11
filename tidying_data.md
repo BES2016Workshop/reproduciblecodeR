@@ -73,8 +73,9 @@ cleaning taxonomic information.
 
 > ### Challenge
 >
-> In a new code chunk in your R Notebook, use the suggested functions to
-> get the data into tidy data format.
+> In a new code chunk in your R Notebook, load the tidyr package using
+> `library(tidyr)` and use the suggested functions to get the data into
+> tidy data format.
 >
 > **HINT** Use `?` to get help on how to use a function (e.g.
 > `?separate`)

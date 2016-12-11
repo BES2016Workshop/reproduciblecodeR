@@ -59,7 +59,9 @@ output.
 
 > ### Challenge
 >
-> Using the `lm()` and `tidy()` functions, fit a linear model relating
-> petal length to petal width and output the table of coefficients.
+> In a new code chunk in your R Notebook load the broom package with
+> `library(broom)` and using the `lm()` and `tidy()` functions, fit a
+> linear model relating petal length to petal width and output the table
+> of coefficients.
 
 **Next:** [Plotting](./plotting.md)

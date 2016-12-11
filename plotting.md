@@ -21,7 +21,7 @@ The features that I find most useful in ggplot2 are:
 -   Can use `facet_wrap()` and `facet_grid()` to create separate plots
     by a factor in the dataframe
 
-Lets make a plot of the `mtcars` model from the previous step:
+Let's make a plot of the `mtcars` model from the previous step:
 
     data(mtcars)
     library(ggplot2)
@@ -62,9 +62,9 @@ the dataframe.
 
 > ### Challenge
 >
-> In a new code chunk in your R Notebook, use ggplot to make a plot of
-> the linear model created in the previous step. Colour the points by
-> species name.
+> In a new code chunk in your R Notebook, load ggplot2 using
+> `library(ggplot2)` and make a plot of the linear model created in the
+> previous step. Colour the points by species name.
 >
 > **HINT** Loading the cowplot package will change the look of the plots
 > to be more suitable for publication.

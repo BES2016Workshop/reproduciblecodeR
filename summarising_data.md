@@ -57,9 +57,9 @@ cylinders.
 
 > ### Challenge
 >
-> In a new code chunk in your R Notebook, calculate the mean and
-> standard deviation for each of the measured variables, grouped by
-> species.
+> In a new code chunk in your R Notebook, load the dplyr package using
+> `library(dplyr)` and calculate the mean and standard deviation for
+> each of the measured variables, grouped by species.
 >
 > **HINT** Use `summarise_each` rather than multiple calls to
 > `summarise()`.
